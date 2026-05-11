@@ -29,7 +29,7 @@ This system helps HR teams shortlist candidates with transparent scoring:
 ### 2) Framework
 
 - **Framework:** LangChain (single orchestration flow in this project; not multi-agent).
-- **Version source:** installed through `requirements.txt` (`langchain`, `langchain-google-genai`).
+- **Version source:** installed through `project/requirements.txt` (`langchain`, `langchain-google-genai`).
 - **Architecture usage in this repo:**
   - `project/app/services/jd_parser.py` -> LLM structured JD extraction.
   - `project/app/parsers/candidate_extractor.py` -> LLM structured candidate extraction.
