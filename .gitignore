@@ -1,0 +1,12 @@
+.venv
+venv/
+.env
+resume.json
+__pycache__/
+*.pyc
+.pytest_cache/
+uploads/
+outputs/
+data/overrides.json
+*.log
+.DS_Store

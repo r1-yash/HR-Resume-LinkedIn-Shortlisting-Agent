@@ -1,0 +1,27 @@
+{
+  "name": "Eve Developer",
+  "email": "eve@example.com",
+  "phone": "555-0606",
+  "education": [
+    {
+      "degree": "BSc Information Technology",
+      "institution": "Tech Institute",
+      "year": "2017"
+    }
+  ],
+  "certifications": ["Certified Kubernetes Administrator"],
+  "total_experience_years": 6.0,
+  "relevant_experience_years": 4.0,
+  "skills": ["Python", "FastAPI", "Go", "Kubernetes", "Docker", "PostgreSQL", "LangChain"],
+  "projects": ["Built scalable API gateways using FastAPI and Go.", "Deployed GenAI agents on Kubernetes clusters."],
+  "communication_quality": "Professional, articulate, and highly detailed.",
+  "linkedin_url": "https://linkedin.com/in/evedeveloper",
+  "experiences": [
+    {
+      "title": "Backend Systems Engineer",
+      "company": "CloudNative Solutions",
+      "duration": "2019-Present",
+      "description": "Architected and deployed highly scalable containerized APIs."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HR Shortlisting Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; color: #333; }
+        h1, h2 { color: #2c3e50; }
+        .candidate { border: 1px solid #ddd; padding: 20px; margin-bottom: 30px; border-radius: 8px; }
+        .score { font-size: 24px; font-weight: bold; color: #e74c3c; }
+        .recommendation { font-weight: bold; padding: 5px 10px; border-radius: 4px; display: inline-block; margin-top: 10px; }
+        .Hire, .Strong { background-color: #d4edda; color: #155724; }
+        .Needs { background-color: #fff3cd; color: #856404; }
+        .No-Hire { background-color: #f8d7da; color: #721c24; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>HR Shortlisting Report</h1>
+    
+    {% for candidate in candidates %}
+    <div class="candidate">
+        <h2>{{ loop.index }}. {{ candidate.candidate_name }}</h2>
+        <p>Candidate ID: {{ candidate.candidate_id }}</p>
+        <p class="score">Final Score: {{ candidate.final_score }} / 100</p>
+        <p class="recommendation {{ candidate.recommendation.split()[0] }}">{{ candidate.recommendation }}</p>
+        
+        <h3>Dimension Breakdown</h3>
+        <table>
+            <tr>
+                <th>Dimension</th>
+                <th>Score (/10)</th>
+                <th>Weight</th>
+                <th>Justification</th>
+            </tr>
+            <tr>
+                <td>Skills Match</td>
+                <td>{{ candidate.dimensions.skills.score }}</td>
+                <td>{{ candidate.dimensions.skills.weight * 100 }}%</td>
+                <td>{{ candidate.dimensions.skills.justification }}</td>
+            </tr>
+            <tr>
+                <td>Experience</td>
+                <td>{{ candidate.dimensions.experience.score }}</td>
+                <td>{{ candidate.dimensions.experience.weight * 100 }}%</td>
+                <td>{{ candidate.dimensions.experience.justification }}</td>
+            </tr>
+            <tr>
+                <td>Education & Certs</td>
+                <td>{{ candidate.dimensions.education.score }}</td>
+                <td>{{ candidate.dimensions.education.weight * 100 }}%</td>
+                <td>{{ candidate.dimensions.education.justification }}</td>
+            </tr>
+            <tr>
+                <td>Project / Portfolio</td>
+                <td>{{ candidate.dimensions.projects.score }}</td>
+                <td>{{ candidate.dimensions.projects.weight * 100 }}%</td>
+                <td>{{ candidate.dimensions.projects.justification }}</td>
+            </tr>
+            <tr>
+                <td>Communication</td>
+                <td>{{ candidate.dimensions.communication.score }}</td>
+                <td>{{ candidate.dimensions.communication.weight * 100 }}%</td>
+                <td>{{ candidate.dimensions.communication.justification }}</td>
+            </tr>
+        </table>
+    </div>
+    {% endfor %}
+</body>
+</html>

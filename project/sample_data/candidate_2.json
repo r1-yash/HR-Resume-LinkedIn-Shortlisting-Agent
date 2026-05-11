@@ -1,0 +1,27 @@
+{
+  "name": "Bob Johnson",
+  "email": "bob@example.com",
+  "phone": "555-0202",
+  "education": [
+    {
+      "degree": "BA History",
+      "institution": "State College",
+      "year": "2015"
+    }
+  ],
+  "certifications": [],
+  "total_experience_years": 8.0,
+  "relevant_experience_years": 1.0,
+  "skills": ["Python", "Flask", "MySQL", "HTML", "CSS"],
+  "projects": ["Personal blog using Flask and MySQL"],
+  "communication_quality": "Adequate grammar, somewhat unorganized descriptions.",
+  "linkedin_url": "https://linkedin.com/in/bobjohnson",
+  "experiences": [
+    {
+      "title": "Junior Web Developer",
+      "company": "Local Agency",
+      "duration": "2023-Present",
+      "description": "Maintained client websites."
+    }
+  ]
+}

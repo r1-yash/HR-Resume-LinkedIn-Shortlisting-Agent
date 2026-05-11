@@ -1,0 +1,27 @@
+{
+  "name": "Diana Prince",
+  "email": "diana@example.com",
+  "phone": "555-0404",
+  "education": [
+    {
+      "degree": "BSc Software Engineering",
+      "institution": "Amazonia University",
+      "year": "2018"
+    }
+  ],
+  "certifications": [],
+  "total_experience_years": 6.0,
+  "relevant_experience_years": 5.0,
+  "skills": ["Java", "Spring Boot", "Python", "Kubernetes", "AWS", "Docker"],
+  "projects": ["Migrated monolithic application to microservices using Spring Boot and Kubernetes."],
+  "communication_quality": "Good, effectively conveys technical concepts.",
+  "linkedin_url": "https://linkedin.com/in/dianaprince",
+  "experiences": [
+    {
+      "title": "Backend Developer",
+      "company": "Enterprise Inc",
+      "duration": "2018-Present",
+      "description": "Built microservices architecture."
+    }
+  ]
+}

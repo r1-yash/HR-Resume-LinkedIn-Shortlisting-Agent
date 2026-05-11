@@ -1,0 +1,27 @@
+{
+  "name": "Charlie Davis",
+  "email": "charlie@example.com",
+  "phone": "555-0303",
+  "education": [
+    {
+      "degree": "MSc Data Science",
+      "institution": "Global Tech",
+      "year": "2020"
+    }
+  ],
+  "certifications": ["Google Cloud Professional Data Engineer"],
+  "total_experience_years": 4.0,
+  "relevant_experience_years": 3.0,
+  "skills": ["Python", "TensorFlow", "Pandas", "GCP", "SQL", "FastAPI"],
+  "projects": ["Built an ML model deployment pipeline using FastAPI and Docker."],
+  "communication_quality": "Highly professional and well-structured.",
+  "linkedin_url": "https://linkedin.com/in/charliedavis",
+  "experiences": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "Data Corp",
+      "duration": "2020-Present",
+      "description": "Deployed ML models using FastAPI."
+    }
+  ]
+}

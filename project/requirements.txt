@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+langchain
+langchain-google-genai
+google-generativeai
+sentence-transformers
+PyMuPDF
+python-docx
+jinja2
+reportlab
+python-multipart
+pydantic-settings
+streamlit
+requests

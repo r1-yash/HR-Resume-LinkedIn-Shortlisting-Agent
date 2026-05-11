@@ -1,0 +1,27 @@
+{
+  "name": "Alice Smith",
+  "email": "alice@example.com",
+  "phone": "555-0101",
+  "education": [
+    {
+      "degree": "BSc Computer Science",
+      "institution": "Tech University",
+      "year": "2019"
+    }
+  ],
+  "certifications": ["AWS Solutions Architect"],
+  "total_experience_years": 5.0,
+  "relevant_experience_years": 4.5,
+  "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS", "LangChain"],
+  "projects": ["Built a scalable AI agent using LangChain and FastAPI that processes 1M requests/day"],
+  "communication_quality": "Clear, concise, and professional writing style.",
+  "linkedin_url": "https://linkedin.com/in/alicesmith",
+  "experiences": [
+    {
+      "title": "Senior Backend Engineer",
+      "company": "AI Startup",
+      "duration": "2021-Present",
+      "description": "Developed backend APIs using FastAPI and integrated LangChain."
+    }
+  ]
+}

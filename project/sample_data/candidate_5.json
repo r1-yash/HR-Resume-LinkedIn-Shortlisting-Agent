@@ -1,0 +1,27 @@
+{
+  "name": "Evan Wright",
+  "email": "evan@example.com",
+  "phone": "555-0505",
+  "education": [
+    {
+      "degree": "BSc Computer Engineering",
+      "institution": "Engineering Institute",
+      "year": "2022"
+    }
+  ],
+  "certifications": [],
+  "total_experience_years": 1.5,
+  "relevant_experience_years": 1.5,
+  "skills": ["Python", "FastAPI", "MongoDB", "React"],
+  "projects": ["Developed a full-stack application for a hackathon using FastAPI and React."],
+  "communication_quality": "Enthusiastic but somewhat informal.",
+  "linkedin_url": "https://linkedin.com/in/evanwright",
+  "experiences": [
+    {
+      "title": "Software Engineer Intern",
+      "company": "Startup Hub",
+      "duration": "2022-2023",
+      "description": "Assisted in building REST APIs."
+    }
+  ]
+}

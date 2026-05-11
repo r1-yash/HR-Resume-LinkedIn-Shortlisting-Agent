@@ -1,0 +1,31 @@
+Senior Backend Engineer (Python)
+
+Role Overview:
+We are looking for a Senior Backend Engineer to join our core team. You will be responsible for building scalable APIs, integrating AI models, and optimizing database performance.
+
+Required Skills:
+- Python
+- FastAPI
+- PostgreSQL
+- LangChain or LlamaIndex
+- Docker
+
+Preferred Skills:
+- Kubernetes
+- AWS
+- Redis
+
+Experience:
+- Minimum 4 years of software engineering experience
+
+Education:
+- Bachelor's degree in Computer Science or related field
+
+Certifications:
+- AWS Certified Developer (Nice to have)
+
+Domain:
+- AI/ML APIs, SaaS
+
+Communication:
+- Must have excellent written and verbal communication skills for cross-functional collaboration.
